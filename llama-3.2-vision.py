@@ -13,7 +13,7 @@ class Store(BaseModel):
   address: str
   
 class Bills(BaseModel):
-  items: list[Item]
+  items: List[Item]
   store: Store
   date: date
   subtotal: float
